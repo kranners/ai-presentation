@@ -1,7 +1,15 @@
 [project]
 name = "ai-presentation"
 version = "0.1.0"
-description = "Add your description here"
+description = "Notebooks and such for graphs or visualisations"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.3",
+    "tensorflow>=2.19.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.0.2",
+]
